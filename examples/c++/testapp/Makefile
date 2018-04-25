@@ -14,7 +14,7 @@ CRYPTOLIBS=		-lcryptopp
 CRYPTOINCLUDES=	-I/usr/include/cryptopp
 
 #NCHAINLIBS=		$(NCHAINDIR)/lib/libnakasendo_shared.so
-NCHAINLIBS=		$(NCHAINDIR)/lib/libnakasendo.a
+NCHAINLIBS=		/usr/lib/libnakasendo.a
 NCHAININCLUDES=	-I$(NCHAINDIR)/include
 
 #INCLUDES=		-I. $(CRYPTOINCLUDES) $(NCHAININCLUDES)

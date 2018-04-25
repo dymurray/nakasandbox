@@ -38,28 +38,4 @@ int main()
 
     if(signatureOk)
       std::cerr << "Signature verified ok" << std::endl;
-    }
-
 }
-//int main()
-//{
-//    /* Sign and verify a message */
-//
-//    // Get an arbitrary message for signing
-//    // (The contents are unimportant for this example)
-//    std::vector<uint8_t> message(16);
-//
-//    // Get public and private keys
-//    KeyPtr key { std::make_unique<KeyECSecp256k1<>>() };
-//    PubKeyPtr pubKey { key->getPubKey() };
-//
-//    // Sign the message using our private key
-//    std::vector<uint8_t> signature { key->sign(message) };
-//
-//    // Verify the signed message using the corresponding public key
-//    bool signatureOk { pubKey->verify(message, signature) };
-//
-//    if(signatureOk)
-//        std::cerr << "Signature verified ok" << std::endl;
-//}
-
