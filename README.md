@@ -27,6 +27,8 @@ sh-4.2$ ./testapp
 Signature verified ok
 ```
 
+You can start building your own examples using the documents in the `guides` folder. DISCLAIMER: I did not write any of these files. These are documents taken from the Nakasendo SDK. If I am granted permission I will post the full release docs but I do not want to step on any toes for now.
+
 ## Future Plans
 * Allow for static linking so that binary can be executed on Linux host outside of container
 * Include Bitcoin c++ libraries in container
