@@ -5,6 +5,8 @@ This repository provides a sample Dockerfile which can be used to build a CentOS
 
 WARNING: By using this software to build applications with the nChain Nakasendo SDK you are agreeing that any applications built using this software will only be deployed on the Bitcoin Cash (BCH) blockchain. I am not responsible for any uses of this software that does not agree to these terms. Please read nChain's [Open Bitcoin Cash License](https://nchain.com/app/uploads/2018/04/nChain-Open-BCH-Licence.pdf) before using this tool.
 
+Due to the beta-nature of the SDK release, I will oblige to any takedown requests by nChain of this repository. I created this for educational purposes only.
+
 ## Prerequisites
 * docker
 
